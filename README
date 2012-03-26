@@ -1,0 +1,14 @@
+This is an Android demo app for SAPI, the Sensis Search API. See http://developers.sensis.com.au/ for more info.
+
+This project depends on SAPI Client: https://github.com/ShardPhoenix/SapiClient
+
+You will also need to add your API key to strings.xml as follows:
+
+<string name="api_key">your-api-key</string>
+
+You can also add your proxy if needed:
+
+<string name="proxy_path">your-proxy-url</string>
+<string name="proxy_port">your-proxy-port-number</string>
+
+Please send any comments, bugs, or suggestions ryan.sattler@sensis.com.au
