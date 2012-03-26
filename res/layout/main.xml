@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Yellow Pages Search"/>
+    
+    <EditText android:id="@+id/whattext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="What"/>
+    
+    <EditText android:id="@+id/wheretext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Where"/>
+    
+    <Button android:id="@+id/searchbutton"
+     	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Search"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:id="@+id/serplisting"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants" >
+    <!--  android:descendantFocusability="blocksDescendants" prevents the phone/contact link from 
+    blocking the normal on-click behaviour of the list items  -->
+
+    <TextView
+        android:id="@+id/listingname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/listingaddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"/>
+    
+    <TextView
+        android:id="@+id/listingcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"/>
+	
+</LinearLayout>
