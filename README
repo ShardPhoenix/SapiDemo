@@ -6,7 +6,7 @@ You will also need to add your API key to strings.xml as follows:
 
 <string name="api_key">your-api-key</string>
 
-You can also add your proxy if needed:
+You also need to add the following (leave them blank if you don't have or a proxy or have configured it in Android):
 
 <string name="proxy_path">your-proxy-url</string>
 <string name="proxy_port">your-proxy-port-number</string>
