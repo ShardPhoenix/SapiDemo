@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import au.com.sensis.sapi.client.SapiClient;
 import au.com.sensis.sapi.client.SapiEnvironment;
-import au.com.sensis.sapi.client.SearchParams;
+import au.com.sensis.sapi.requestmodel.SearchParams;
 import au.com.sensis.sapi.responsemodel.Listing;
 import au.com.sensis.sapi.responsemodel.SearchResponse;
 
@@ -60,7 +60,7 @@ public class Serp extends ListActivity implements OnScrollListener {
 		client = new SapiClient(apiKey, SapiEnvironment.TEST);
 		
 		proxyHost = getString(R.string.proxy_path);
-		if (proxyHost != null) {
+		if (proxyHost != null && !proxyHost.equals("") && !proxyHost.matches("\\s*")) {
 		    proxyPort = getString(R.string.proxy_port) != null ? Integer.parseInt(getString(R.string.proxy_port)) : null;
 		    client.setProxy(proxyHost, proxyPort);
 		}
